@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat, sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url("/img/photo_2020-07-21_14-29-20.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+header:after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background-color: rgba(34, 34, 34, 0.5);
+}
+
+header .content {
+  position: relative;
+  z-index: 1;
+}
+
+header .content h1 {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+header .content span {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 480px) {
+  header .content {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .content {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header .content {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  header .content {
+    font-size: 72px;
+  }
+}
+
+header h2 {
+  color: #FFF;
+  font-size: 42px;
+  font-weight: 900;
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    font-size: 96px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  header {
+    font-size: 128px;
+  }
+}
+
+header .countdown {
+  color: #FFF;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 480px) {
+  header .countdown {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .countdown {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header .countdown {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  header .countdown {
+    font-size: 88px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
